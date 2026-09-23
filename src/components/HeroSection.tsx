@@ -39,8 +39,8 @@ const HeroSection = () => {
 
           {/* Summary */}
           <p className="text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            8+ years of experience in GIS development, spatial data analysis, and remote sensing applications. 
-            Expert in M.App Enterprise architecture and modern web GIS development.
+           8+ years of experience in GIS development, spatial data analysis, remote sensing applications, and database management. Expert in M.App Enterprise architecture, modern web GIS development,
+            and spatial databases including PostgreSQL/PostGIS and SQL Server.
           </p>
 
           {/* Contact Info */}
