@@ -39,7 +39,7 @@ const HeroSection = () => {
 
           {/* Summary */}
           <p className="text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            7+ years of experience in GIS development, spatial data analysis, and remote sensing applications. 
+            8+ years of experience in GIS development, spatial data analysis, and remote sensing applications. 
             Expert in M.App Enterprise architecture and modern web GIS development.
           </p>
 
