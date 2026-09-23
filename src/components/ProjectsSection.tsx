@@ -4,6 +4,27 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
+    title: "Digital Transformation Project (Awqaf)",
+    client: "Ministry of Awqaf",
+    period: "2024 - 2026",
+    description: "Contributed to building business applications for the Real Estate Ownership, Projects, Agricultural, and Legal Affairs administrations.",
+    technologies: ["M.App Enterprise", "PostgreSQL/PostGIS", "Business Apps"],
+  },
+  {
+    title: "Encroachment Monitoring & Real Estate Reports Center",
+    client: "State Properties Authority (KSA)",
+    period: "2023",
+    description: "Periodic monitoring system with automatic change detection, dashboards, field-report registration, and notification workflows to governorates.",
+    technologies: ["Hexagon Geospatial", "SQL Server", "Dashboards"],
+  },
+  {
+    title: "Digital Elevation Models (DEM) Production",
+    client: "Sudan",
+    period: "2022",
+    description: "Produced DEMs from very-high-resolution satellite imagery using stereo-vision technology; extracted building heights and generated slope maps for road and pipeline planning.",
+    technologies: ["Stereo-Vision", "Satellite Imagery", "DEM"],
+  },
+  {
     title: "Crisis & Disaster Management System",
     client: "Sharkia Governorate",
     period: "January 2022 - March 2022",
@@ -23,6 +44,34 @@ const projects = [
     period: "August 2021 - November 2021",
     description: "Web-based GIS applications for military operations with secure data access and user authentication systems.",
     technologies: ["Web GIS", "SQL Server", "Security"],
+  },
+  {
+    title: "Crop Classification Application (CCA)",
+    client: "Soils, Water and Environment Research Institute (SWERI)",
+    period: "Project",
+    description: "Full system built on M.App Enterprise and PostgreSQL/PostGIS with role-based apps for project management, crop blocks, spatial layer upload, and crop performance KPI dashboards.",
+    technologies: ["M.App Enterprise", "PostgreSQL/PostGIS", "KPI Dashboards"],
+  },
+  {
+    title: "Electronic System for State Assets & Property Management",
+    client: "Administrative Control Authority",
+    period: "Project",
+    description: "Spatial-dimension workflow (audit, correction, approval), mobile location apps, shapefile handling, and KPI dashboards for contracts, encroachments, debts, and collections.",
+    technologies: ["M.App Enterprise", "PostgreSQL/PostGIS", "Mobile GIS"],
+  },
+  {
+    title: "RSC Field Survey System",
+    client: "Project",
+    period: "Project",
+    description: "Role-based apps for survey requests, automatic distribution to survey teams, dual survey review, certificate issuance, financial tracking, and complaints handling.",
+    technologies: ["M.App Enterprise", "PostgreSQL/PostGIS", "Field Survey"],
+  },
+  {
+    title: "Field Survey",
+    client: "Motobas, Kafr El Sheikh",
+    period: "Field Project",
+    description: "On-site field inventory of agricultural areas, recording land areas and owner details, with data collected and verified for the spatial database.",
+    technologies: ["Field Survey", "Data Collection", "Spatial Database"],
   },
   {
     title: "Spatial Changes System",
